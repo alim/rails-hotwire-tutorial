@@ -1,0 +1,1 @@
+# rails-hotwire-tutorial
