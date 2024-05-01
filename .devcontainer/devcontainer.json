@@ -30,7 +30,6 @@
         "aliariff.vscode-erb-beautify",
         "mhutchie.git-graph",
         "eamodio.gitlens",
-        "jebbs.plantuml",
         "bung87.rails",
         "aki77.rails-db-schema",
         "misogi.ruby-rubocop",
@@ -38,7 +37,8 @@
         "bung87.vscode-gemfile",
         "github.vscode-github-actions",
         "Gruntfuggly.todo-tree",
-        "CraigMaslowski.erb"
+        "CraigMaslowski.erb",
+        "bierner.markdown-mermaid"
       ]
     }
   }
