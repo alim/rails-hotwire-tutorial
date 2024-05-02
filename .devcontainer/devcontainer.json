@@ -17,7 +17,7 @@
 	// "forwardPorts": [3000, 5432],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sudo apt update && sudo apt install -y postgresql-client && cd quote-editor && bundle install && rake db:setup",
+	"postCreateCommand": "sudo apt update && sudo apt install -y postgresql-client && cd quote-editor && bin/bundle install && bin/rails db:setup",
 
 	// Configure tool-specific properties.
 	"customizations": {
