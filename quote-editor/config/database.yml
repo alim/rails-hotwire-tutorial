@@ -27,7 +27,7 @@ development:
   # To create additional roles in PostgreSQL see `$ createuser --help`.
   # When left blank, PostgreSQL will use the default role. This is
   # the same name as the operating system user running Rails.
-  username: quote_editor_dev
+  username: qed_dev
 
   # The password associated with the PostgreSQL role (username).
   password: qed-dev#240501
@@ -57,8 +57,8 @@ development:
 test:
   <<: *default
   database: quote_editor_test
-  username: quote_editor_test
-  passowrd: qed-test#240501
+  username: qed_test
+  password: qed-test#240501
   host: db
   port: 5432
 
